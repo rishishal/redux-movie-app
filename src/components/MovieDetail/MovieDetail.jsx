@@ -22,7 +22,9 @@ const MovieDetail = () => {
   return (
     <div className='movie-section'>
       {Object.keys(data).length === 0 ? (
-        <div>...Loading</div>
+        <div style={{ fontSize: "3rem", color: "#fff", textAlign: "center" }}>
+          Loading...
+        </div>
       ) : (
         <>
           <div className='section-left'>
